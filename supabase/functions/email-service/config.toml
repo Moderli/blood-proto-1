@@ -1,0 +1,11 @@
+[global]
+runtime = "deno"
+entrypoint = "index.ts"
+
+[[global.environment]]
+name = "SUPABASE_URL"
+value = "https://cgoshnsymyzvtbzermvi.supabase.co"
+
+[[global.environment]]
+name = "SUPABASE_SERVICE_ROLE_KEY"
+value = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNnb3NobnN5bXl6dnRiemVybXZpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0MjIyMjQ4NywiZXhwIjoyMDU3Nzk4NDg3fQ.pyr1x4U1tC0qG2gW8xh1K4saGRKjqSy529eKLQd3l5k" 
